@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "name": "@kreablo/volto-page-displayer",
+  "description": "A volto block component that displays the block content from other volto pages.",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "author": "Plone Community",
+  "homepage": "https://github.com/collective/volto-page-displayer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:collective/volto-page-displayer.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "dry-release": "release-it --dry-run",
+    "release": "release-it",
+    "release-major-alpha": "release-it major --preRelease=alpha",
+    "release-alpha": "release-it --preRelease=alpha"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-intl": "*",
+    "react-redux": "*",
+    "semantic-ui-react": "*"
+  },
+  "devDependencies": {
+    "@plone/scripts": "^3.6.1",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/react-redux": "*",
+    "@types/react-router-dom": "*",
+    "@types/slate": "*",
+    "release-it": "^17.1.1",
+    "cypress": "*"
+  }
+}

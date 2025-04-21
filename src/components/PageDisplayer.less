@@ -1,0 +1,18 @@
+@type: 'extra';
+@element: 'custom';
+
+@import (multiple) '@plone/volto/theme/theme.config';
+
+.warning {
+  color: @negativeTextColor;
+  font-weight: bold;
+}
+
+.page-displayer-view:has(.loop-detected) {
+  background-color: @negativeBackgroundColor;
+}
+
+.page-displayer-header {
+  font-style: italic;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. Default: "Page Displayer"
+#: components/messages
+msgid "addonTitle"
+msgstr ""
+
+#. Default: "Loading.."
+#: components/messages
+msgid "loading"
+msgstr ""
+
+#. Default: "This page is trying to display itself."
+#: components/messages
+msgid "loopWarning"
+msgstr ""
+
+#. Default: "Select URL to the page you want to display."
+#: components/messages
+msgid "noUrlSelected"
+msgstr ""
+
+#. Default: "Show Title"
+#: components/messages
+msgid "showTitleLabel"
+msgstr ""
+
+#. Default: "Select url"
+#: components/messages
+msgid "urlLabel"
+msgstr ""
