@@ -1,6 +1,6 @@
 import { PageDisplayerEdit } from './components/PageDisplayerEdit';
 import { PageDisplayerView } from './components/PageDisplayerView';
-import satisfiedIcon from '@plone/volto/icons/satisfied.svg';
+import pageIcon from '@plone/volto/icons/page.svg';
 import { Title } from './components/Title';
 import { PageDisplayerListing } from './components/PageDisplayerListing';
 import { PageDisplayerListingSchemaEnhancer } from './components/PageDisplayerListingSchemaEnhancer';
@@ -9,7 +9,7 @@ const applyConfig = (config) => {
   const pageDisplayer = {
     id: 'pageDisplayer',
     title: 'Page Displayer',
-    icon: satisfiedIcon,
+    icon: pageIcon,
     group: 'common',
     view: PageDisplayerView,
     edit: PageDisplayerEdit,

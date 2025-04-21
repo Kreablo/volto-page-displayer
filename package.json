@@ -10,11 +10,11 @@
     "plone",
     "react"
   ],
-  "author": "Plone Community",
-  "homepage": "https://github.com/collective/volto-page-displayer#readme",
+  "author": "Robin Jonsson",
+  "homepage": "https://github.com/Kreablo/volto-page-displayer#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:collective/volto-page-displayer.git"
+    "url": "git@github.com:Kreablo/volto-page-displayer.git"
   },
   "publishConfig": {
     "access": "public"

@@ -4,7 +4,7 @@ import { PageDisplayerSchema } from './PageDisplayerSchema';
 import SidebarPortal from '@plone/volto/components/manage/Sidebar/SidebarPortal';
 import BlockDataForm from '@plone/volto/components/manage/Form/BlockDataForm';
 
-import satisfiedIcon from '@plone/volto/icons/satisfied.svg';
+import pageIcon from '@plone/volto/icons/page.svg';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import messages from './messages';
 
@@ -24,7 +24,7 @@ export const PageDisplayerEdit = (props) => {
       <SidebarPortal selected={selected}>
         {intl.formatMessage(messages.addonTitle)}
         <BlockDataForm
-          icon={<Icon name={satisfiedIcon} size="36px" />}
+          icon={<Icon name={pageIcon} size="36px" />}
           intl={intl}
           schema={schema}
           title={schema.title}
