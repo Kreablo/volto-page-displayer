@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "@kreablo/volto-page-displayer",
   "description": "A volto block component that displays the block content from other volto pages.",
   "main": "src/index.ts",
